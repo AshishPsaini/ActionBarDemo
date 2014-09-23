@@ -98,8 +98,9 @@ public class MultiSelectAdapter extends BaseAdapter{
 		}
 		else {
 			mSelectedItemsIds.delete(position);
-			notifyDataSetChanged();
+			
 		}
+		notifyDataSetChanged();
 	}
 
 	public int getSelectedCount() {
