@@ -14,7 +14,7 @@ import com.priyashi.utils.Utils;
 public class MainActivity extends ActionBarActivity {
 
 	//Filed member name should be start with m
-	String mArrayOfOptions [] = {"PopUp Menu","Action Provider" ,"Custom Action Provider","MultiSelect List", "Home Key up down "};
+	String mArrayOfOptions [] = {"PopUp Menu","Action Provider" ,"Custom Action Provider","MultiSelect List", "Navigation Tab And Action View ","Navigation Drawer","Home Key up down "};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +76,16 @@ public class MainActivity extends ActionBarActivity {
 			case 3:
 				//Action provider Screen 
 				intent=new Intent(MainActivity.this,MultiSelectList.class);
+				break;
+				
+			case 4:
+				//Navigation Tab Screen 
+				intent=new Intent(MainActivity.this,NavigationTab.class);
+				break;
+				
+			case 5:
+				//Navigation Drawer Screen 
+				intent=new Intent(MainActivity.this,NavigationDrawerScreen.class);
 				break;
 			default:
 				//This is default

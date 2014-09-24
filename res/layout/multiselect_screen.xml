@@ -14,9 +14,21 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:layout_marginTop="60dp"
         android:textColor="#333333"
         android:textSize="15sp"
+        android:scrollbars="none"
         android:gravity="center"
        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Long press to delete list item "
+        android:textSize="15sp" />
 
 </RelativeLayout>

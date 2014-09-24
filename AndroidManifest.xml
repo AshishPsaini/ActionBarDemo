@@ -40,6 +40,17 @@
             android:name=".MultiSelectList"
             android:label="@string/app_name" >
         </activity>
+        
+          <activity
+            android:name=".NavigationTab"
+            android:label="@string/app_name" >
+        </activity>
+        
+           <activity
+            android:name=".NavigationDrawerScreen"
+            android:label="@string/app_name" >
+        </activity>
+         
     </application>
 
 </manifest>
