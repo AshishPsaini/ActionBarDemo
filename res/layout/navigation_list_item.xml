@@ -6,7 +6,7 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@android:id/text1"
+        android:id="@+id/text1"
         android:textColor="#333333"
         android:textSize="15sp"
         android:layout_margin="10dp"
